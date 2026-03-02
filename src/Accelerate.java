@@ -1,4 +1,4 @@
 public interface Accelerate {
 
-    public void accelerate();
+    public void accelerate(double speedIncrease);
 }

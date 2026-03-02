@@ -15,7 +15,7 @@ public class Main {
         }
 
         for (Vehicle vehicle : vehicles) {
-            vehicle.accelerate();
+            vehicle.accelerate(5);
             System.out.println(vehicle);
         }
     }

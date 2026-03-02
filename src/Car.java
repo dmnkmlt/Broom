@@ -11,9 +11,4 @@ public class Car extends Vehicle {
     public String toString() {
         return super.toString() + ", number of doors: " + this.numOfDoors;
     }
-
-    @Override
-    public void accelerate(){
-        super.accelerate();
-    }
 }

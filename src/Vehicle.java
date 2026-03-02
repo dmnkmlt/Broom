@@ -13,11 +13,7 @@ public abstract class Vehicle implements Accelerate{
         return "Make: " + this.make + ", speed: " + this.speed;
     }
 
-    public void accelerate(){
-        this.speed *= 1.2;
-    }
-
-    public void setSpeed(double speed) {
-        this.speed = speed;
+    public void accelerate(double speedIncrease){
+        this.speed += speedIncrease;
     }
 }
