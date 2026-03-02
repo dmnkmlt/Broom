@@ -16,4 +16,20 @@ public abstract class Vehicle implements Accelerate{
     public void accelerate(double speedIncrease){
         this.speed += speedIncrease;
     }
+
+    public void setMake(String make){
+        this.make = make;
+    }
+
+    public void setSpeed(double speed){
+        this.speed = speed;
+    }
+
+    public String getMake() {
+        return this.make;
+    }
+
+    public double getSpeed() {
+        return this.speed;
+    }
 }
